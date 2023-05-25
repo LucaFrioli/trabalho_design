@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;    
+}
+
+header{
+    background-color: #ced4da;
+}
+
+.footer{
+    background-color: #ced4da;
+}
+
+.cor-fonte{
+    color: rgb(245, 233, 233);
+}
+
+a.botao{
+    text-decoration: none;
+    color: saddlebrown;
+    padding: 5px 9px;
+    background-color: #ced4da;
+    border-radius: 10px;
+    font-weight: 700;
+}

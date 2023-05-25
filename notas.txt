@@ -1,0 +1,11 @@
+projeto focaod em mobile first;
+
+
+definição de tamanho padrão de imagens:
+
+carrosel : 
+1920x1080
+
+para cards:
+***x***
+
