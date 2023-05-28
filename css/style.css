@@ -24,3 +24,8 @@ a.botao{
     border-radius: 10px;
     font-weight: 700;
 }
+
+a.botao:hover{
+    background-color: #6d6a6a;
+    color: rgb(22, 252, 1) ;
+}
