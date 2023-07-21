@@ -1,42 +1,133 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Cartoon Universe</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Cartoon Universe</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-    <div class="p-4 bg-body-tertiary text-white text-center">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Cartoon Universe</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="catalogo.html">Catálogo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="form.html">Assine já</a>
-                  </li>
-                </ul>
-              </div>
+  <div class="p-4 bg-body-tertiary text-white text-center">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Cartoon Universe</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="catalogo.html">Catálogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form.html">Assine já</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!--corpo do site-->
+  <div class="container-fluid bg-dark text-white pt-5 pb-5">
+    <div class="grid text-center">
+      <div class="row justify-content-center pb-4 pt-4 h-70">
+        <!--cards de conteúdo-->
+        <main class="cardes">
+          <section class="carde justify-content-center align-content-center">
+            <div class="icone">
+              <img src="images/cards/os_simpsons.png" alt="Os Simpsons">
             </div>
-          </nav>
+            <h3>Os Simpsons</h3>
+            <span>Uma família muito engraçada</span>
+            <button>assistir</button>
+          </section>
+          <section class="carde justify-content-center align-content-center">
+            <div class="icone">
+              <img src="images/cards/adventure-time.jpg" alt="Hora de Aventura">
+            </div>
+            <h3>Hora de Aventura</h3>
+            <span>Aventure-se no mundo de ooo</span>
+            <button>assistir</button>
+          </section>
+          <section class="carde justify-content-center align-content-center">
+            <div class="icone">
+              <img src="images/cards/3ursos.png" alt="Urso sem Curso">
+            </div>
+            <h3>Urso sem Curso</h3>
+            <span>Três Ursos atrapalhados descobrem o mundo</span>
+            <button>assistir</button>
+          </section>
+          <section class="carde justify-content-center align-content-center">
+            <div class="icone">
+              <img src="images/cards/Looney.png" alt="Looney Tunes">
+            </div>
+            <h3>Looney Tunes</h3>
+            <span>Varios amigos trapalhoes, uma turminha da pesada</span>
+            <button>assistir</button>
+          </section>
+        </main>
+
+        <!--Segunda linha-->
+        <main class="cardes">
+          <section class="carde justify-content-center align-content-center">
+            <div class="icone">
+              <img src="images/cards/cuphead.png" alt="The Cuphead show">
+            </div>
+            <h3>Cuphead Show</h3>
+            <span>Duas xicaras que se aventuram</span>
+            <button>assistir</button>
+          </section>
+          <section class="carde justify-content-center align-content-center">
+            <div class="icone">
+              <img src="images/cards/Gumball.jpg" alt="Gumball">
+            </div>
+            <h3>Gumball</h3>
+            <span>Uma Familia de gatinhos não tão fofos</span>
+            <button>assistir</button>
+          </section>
+          <section class="carde justify-content-center align-content-center">
+            <div class="icone">
+              <img src="images/cards/tom_and_jerry.png" alt="Tom e Jerry">
+            </div>
+            <h3>Tom E Jerry</h3>
+            <span>Um Gato e um rato que se amam e odeiam</span>
+            <button>assistir</button>
+          </section>
+          <section class="carde justify-content-center align-content-center">
+            <div class="icone">
+              <img src="images/cards/monica_jovem.jpg" alt="Monica">
+            </div>
+            <h3>Mônica Jovem</h3>
+            <span>Desafios do dia a dia de jovens de maneira divertida</span>
+            <button>assistir</button>
+          </section>
+        </main>
+
+      </div>
     </div>
-    
+
+  </div>
+
+
+  <div class="p-4 bg-body-tertiary text-dark text-center">
+    <p>Cortoon Universe ltda.</p>
+    <p>@todos os direitos reservados</p>
+  </div>
+
 </body>
+
 </html>

@@ -1,7 +1,10 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
-    border: 0px;    
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; 
 }
 
 header{
@@ -18,9 +21,98 @@ header{
 
 a.botao{
     text-decoration: none;
-    color: saddlebrown;
+    color: rgb(24, 23, 23);
+    font-weight: 500;
     padding: 5px 9px;
     background-color: #ced4da;
     border-radius: 10px;
-    font-weight: 700;
+    cursor: pointer;
+}
+
+a.botao:hover{
+    background: linear-gradient(to right,rgb(212, 208, 208), white); 
+}
+
+main.cardes{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 32px;
+}
+
+main.cardes section.carde:first-child{
+    margin-left: 0;
+}
+
+main.cardes section.carde{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(97, 94, 94);
+    padding: 1rem 1.5rem;
+    border-radius: 16px;
+    max-height: 256px;
+    max-width: 200px;
+    margin-left: 32px;
+    box-shadow: 20px 20px 50px -30px black;
+}
+
+main.cardes section.carde:hover{
+    box-shadow: 20px 20px 50px -30px whitesmoke;
+}
+
+main.cardes section.carde div.icone{
+    width: 64px;
+    height: 64px;
+}
+
+main.cardes section.carde img{
+    width: 100%;
+}
+
+
+main.cardes section.carde h3{
+    margin: 10px 0px;
+    font-size: 100%;
+}
+
+main.cardes section.carde span{
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 75%;
+    margin: 16px 0px;
+}
+
+main.cardes section.carde button{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 16px;
+    margin-top: 6px;
+    margin-top: 6px;
+    cursor: pointer;
+    font-size: 75%;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+main.cardes section.carde button:hover{
+    background: linear-gradient(to right,rgb(212, 208, 208), white); 
+}
+
+@media screen and (max-width: 780px) {
+    main.cardes{
+        flex-direction: column;
+    }
+
+    main.cardes section.carde{
+        max-width: 200px;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+}
+
+.maiusculas{
+    text-transform: uppercase;
 }
